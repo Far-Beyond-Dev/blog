@@ -30,24 +30,24 @@ export const Header = () => {
           {/* Navigation Links - Desktop */}
           <div className="hidden md:flex items-center gap-8">
 
-            <Link href="https://horizon.farbeyond.dev/community" className="text-neutral-300 hover:text-neutral-100 transition-colors">
+            <a href="https://horizon.farbeyond.dev/community" className="text-neutral-300 hover:text-neutral-100 transition-colors">
               Community
-            </Link>
-            <Link href="https://horizon.farbeyond.dev/enterprise" className="text-neutral-300 hover:text-neutral-100 transition-colors">
+            </a>
+            <a href="https://horizon.farbeyond.dev/enterprise" className="text-neutral-300 hover:text-neutral-100 transition-colors">
               Enterprise
-            </Link>
-            <Link href="https://horizon.farbeyond.dev/docs" className="text-neutral-300 hover:text-neutral-100 transition-colors">
+            </a>
+            <a href="https://horizon.farbeyond.dev/docs" className="text-neutral-300 hover:text-neutral-100 transition-colors">
               Documentation
-            </Link>
-            <Link href="https://horizon.farbeyond.dev/news" className="text-neutral-300 hover:text-neutral-100 transition-colors">
+            </a>
+            <a href="https://horizon.farbeyond.dev/news" className="text-neutral-300 hover:text-neutral-100 transition-colors">
               News
-            </Link>
-            <Link href="https://horizon.farbeyond.dev/blog" className="text-neutral-300 hover:text-neutral-100 transition-colors">
+            </a>
+            <a href="https://horizon.farbeyond.dev/blog" className="text-neutral-300 hover:text-neutral-100 transition-colors">
               Blog
-            </Link>
-            <Link href="https://pulsar.farbeyond.dev/" className="text-neutral-300 hover:text-neutral-100 transition-colors">
+            </a>
+            <a href="https://pulsar.farbeyond.dev/" className="text-neutral-300 hover:text-neutral-100 transition-colors">
               Pulsar
-            </Link>
+            </a>
           </div>
 
           {/* Call to Action Buttons */}
