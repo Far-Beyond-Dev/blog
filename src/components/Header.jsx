@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { IconBrandGithub } from "@tabler/icons-react";
 
-const MobileNavLink = ({ href, children }) => (
+const MobileNavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
   <Link
     href={href}
     className="block px-3 py-2 text-base font-medium text-neutral-300 hover:text-white hover:bg-neutral-800 rounded-md transition-colors"
@@ -21,7 +21,7 @@ export const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo and Brand */}
-          <Link href="/">
+          <Link href="https://horizon.farbeyond.dev/">
             <div className="flex items-center gap-2">
               <img src="https://github.com/Far-Beyond-Dev/Horizon-Community-Edition/blob/main/branding/horizon-server-high-resolution-logo-white-transparent.png?raw=true" className='w-52'></img>
             </div>
@@ -30,19 +30,19 @@ export const Header = () => {
           {/* Navigation Links - Desktop */}
           <div className="hidden md:flex items-center gap-8">
 
-            <Link href="/community" className="text-neutral-300 hover:text-neutral-100 transition-colors">
+            <Link href="https://horizon.farbeyond.dev/community" className="text-neutral-300 hover:text-neutral-100 transition-colors">
               Community
             </Link>
-            <Link href="/enterprise" className="text-neutral-300 hover:text-neutral-100 transition-colors">
+            <Link href="https://horizon.farbeyond.dev/enterprise" className="text-neutral-300 hover:text-neutral-100 transition-colors">
               Enterprise
             </Link>
-            <Link href="/docs" className="text-neutral-300 hover:text-neutral-100 transition-colors">
+            <Link href="https://horizon.farbeyond.dev/docs" className="text-neutral-300 hover:text-neutral-100 transition-colors">
               Documentation
             </Link>
-            <Link href="/news" className="text-neutral-300 hover:text-neutral-100 transition-colors">
+            <Link href="https://horizon.farbeyond.dev/news" className="text-neutral-300 hover:text-neutral-100 transition-colors">
               News
             </Link>
-            <Link href="/blog" className="text-neutral-300 hover:text-neutral-100 transition-colors">
+            <Link href="https://horizon.farbeyond.dev/blog" className="text-neutral-300 hover:text-neutral-100 transition-colors">
               Blog
             </Link>
             <Link href="https://pulsar.farbeyond.dev/" className="text-neutral-300 hover:text-neutral-100 transition-colors">
