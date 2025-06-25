@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { IconBrandGithub } from "@tabler/icons-react";
 
-const MobileNavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
+const MobileNavLink = ({ href, children }) => (
   <Link
     href={href}
     className="block px-3 py-2 text-base font-medium text-neutral-300 hover:text-white hover:bg-neutral-800 rounded-md transition-colors"
