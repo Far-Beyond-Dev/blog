@@ -11,6 +11,7 @@
     "predev": "node scripts/generate-blog-index.js"
   },
   "dependencies": {
+    "@tabler/icons-react": "^3.34.0",
     "copy-to-clipboard": "^3.3.3",
     "date-fns": "^4.1.0",
     "gray-matter": "^4.0.3",

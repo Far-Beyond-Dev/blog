@@ -19,158 +19,29 @@
       "Server Meshing",
       "Performance"
     ],
-    "excerpt": "\r\n*The technical journey of building a game server that breaks Unreal Engine's limits and powers massive space battles*\r\n\r\n## The Problem That Started...",
+    "excerpt": "\n*The technical journey of building a game server that breaks Unreal Engine's limits and powers massive space battles*\n\n## The Problem That Started Ev...",
     "readingTime": 21,
     "fileName": "horizon-game-server-pt2.md"
   },
   {
-    "slug": "SurrealDB",
-    "title": "The SurrealDB Reality Check; Marketing vs Reality",
-    "date": "2025-6-23",
-    "categories": [
-      "Database",
-      "Performance",
-      "Marketing"
-    ],
-    "tags": [
-      "Architecture"
-    ],
-    "excerpt": "\r\n## The SurrealDB Reality Check: When Marketing Meets Performance\r\n\r\nWhen SurrealDB burst onto the scene with promises of \"one database, infinite mem...",
-    "readingTime": 6,
-    "fileName": "SurrealDB.md"
-  },
-  {
-    "slug": "Apple-AI-Paper",
-    "title": "The Story Behind Apple's 'Illusion of Thinking'",
-    "date": "2025-6-18",
-    "categories": [
-      "Programing",
-      "Performance",
-      "LLMs"
-    ],
-    "tags": [
-      "Architecture"
-    ],
-    "excerpt": "\n## The Story Behind Apple's \"Illusion of Thinking\"\n\nApple just dropped a paper called *\"The Illusion of Thinking: Understanding the Strengths and Lim...",
-    "readingTime": 14,
-    "fileName": "Apple-AI-Paper.md"
-  },
-  {
-    "slug": "Digital-Stop-and-Frisk",
-    "title": "The Digital Stop and Frisk: When Your Privacy Meets Border Control",
-    "date": "2025-04-18",
-    "categories": [
-      "Security",
-      "Privacy",
-      "Device Protection",
-      "Government Overreach"
-    ],
-    "tags": [
-      "Encryption",
-      "Border Security",
-      "Digital Rights"
-    ],
-    "readingTime": 15,
-    "excerpt": "\r\n## Introduction\r\n\r\nI've been thinking a lot about device security lately. With increased border searches and the ease with which both government age...",
-    "fileName": "Digital-Stop-and-Frisk.md"
-  },
-  {
-    "slug": "Lenovo-Legion-Slim-7",
-    "title": "My Journey with the Legion Slim 7 16IRH8: A Rust, Unreal Engine, and Web Developer's Perspective",
-    "date": "2025-04-10",
-    "categories": [
-      "Technology",
-      "Development",
-      "Hardware Review"
-    ],
-    "tags": [
-      "Legion Slim 7",
-      "Rust Development",
-      "Unreal Engine",
-      "Web Development",
-      "WSL",
-      "Dev Containers"
-    ],
-    "excerpt": "\n## Introduction\n\nBack in January 2024, I finally bit the bullet and grabbed a Lenovo Legion Slim 7 16IRH8. It showed up about a week later, and I've ...",
-    "readingTime": 8,
-    "fileName": "Lenovo-Legion-Slim-7.md"
-  },
-  {
-    "slug": "VPNs-wont-save-us",
-    "title": "VPNs: When will they save us, and when won't they?",
-    "date": "2024-12-24",
-    "categories": [
-      "Security"
-    ],
-    "tags": [
-      "VPNs"
-    ],
-    "excerpt": "\n# Addressing the issue\n\nWe have all seen segments on YouTube and platforms like it advertising that you are \"safer\" online when using a VPN. This can...",
-    "readingTime": 5,
-    "fileName": "VPNs-wont-save-us.md"
-  },
-  {
-    "slug": "The-Ruby-Monolith-Mindset",
-    "title": "The Ruby Monolith Mindset: When Familiarity Breeds Technical Debt",
-    "date": "2024-10-27",
+    "slug": "horizon-rewrite",
+    "title": "Horizon Core Rewrite",
+    "date": "2024-11-06",
     "categories": [
       "Engineering",
-      "Performance"
+      "Performance",
+      "Architecture",
+      "Plugins"
     ],
     "tags": [
-      "Ruby",
-      "Monoliths",
-      "Architecture"
-    ],
-    "excerpt": "\n# The Ruby Monolith Mindset: When Familiarity Breeds Technical Debt\n\nIn the ever-evolving landscape of software development, certain patterns emerge ...",
-    "readingTime": 8,
-    "fileName": "The-Ruby-Monolith-Mindset.md"
-  },
-  {
-    "slug": "Macros-vs-Functions",
-    "title": "Macros VS Functions, and When to Apply Them",
-    "date": "2024-10-26",
-    "categories": [
-      "Programing",
-      "Performance"
-    ],
-    "tags": [
-      "Architecture"
-    ],
-    "excerpt": "\n# Macros VS Functions, and When to Apply Them\n\nRecently I came across a group of individuals that seemed convinced that macros were terrible and alwa...",
-    "readingTime": 9,
-    "fileName": "Macros-vs-Functions.md"
-  },
-  {
-    "slug": "Demystifying-Casting",
-    "title": "Demystifying Casting: It's Not the Villain You Think It Is",
-    "date": "2024-10-17",
-    "categories": [
-      "Programing",
-      "Performance"
-    ],
-    "tags": [
-      "Architecture"
-    ],
-    "excerpt": "\nIn the world of Unreal Engine 5 game development (particularly in Blueprint), there's a persistent myth that casting is inherently bad for performanc...",
-    "readingTime": 5,
-    "fileName": "Demystifying-Casting.md"
-  },
-  {
-    "slug": "CICD-reimagined",
-    "title": "Reimagining CI/CD: My Journey Building a Rust-Based System for pipelines",
-    "date": "2024-10-12",
-    "categories": [
       "Engineering",
-      "CI",
-      "Rust"
+      "Performance",
+      "Architecture",
+      "Plugins"
     ],
-    "tags": [
-      "Automation"
-    ],
-    "excerpt": "\nAs a software developer, I've long been fascinated by the intricacies of CI/CD systems. Recently, I embarked on an ambitious project: creating a Rust...",
-    "readingTime": 3,
-    "fileName": "CICD-reimagined.md"
+    "excerpt": "\n[The pull request for this blog](https://github.com/Far-Beyond-Dev/Horizon-Community-Edition/pull/182)\n\n# Introduction\nIn this deep dive, we'll explo...",
+    "readingTime": 7,
+    "fileName": "horizon-rewrite.md"
   },
   {
     "slug": "horizon-game-server-pt1",
@@ -191,18 +62,21 @@
     "fileName": "horizon-game-server-pt1.md"
   },
   {
-    "slug": "rise-of-tech-tribalism",
-    "title": "The Rise of Tech Tribalism: When Tool Loyalty Trumps Pragmatism",
-    "date": "2024-10-12",
+    "slug": "building-terraforge-1",
+    "title": "Building Terraforge",
+    "date": "2024-06-06",
     "categories": [
-      "Programing",
-      "Performance"
-    ],
-    "tags": [
+      "Engineering",
+      "Performance",
       "Architecture"
     ],
-    "excerpt": "\n## A brief introduction to the problem\n\nIn recent years, a concerning trend has emerged in the tech world: the rise of what we might call \"tech triba...",
-    "readingTime": 9,
-    "fileName": "rise-of-tech-tribalism.md"
+    "tags": [
+      "Engineering",
+      "Performance",
+      "Architecture"
+    ],
+    "excerpt": "\nOur journey into creating TerraForge began with extensive research, involving more than 40 tabs open for weeks, as we delved into the best methods fo...",
+    "readingTime": 4,
+    "fileName": "building-terraforge-1.md"
   }
 ]
