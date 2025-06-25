@@ -62,7 +62,7 @@ export default async function BlogPage({ params }) {
     
     return (
       <div className="max-w-4xl mx-auto">
-        <div className="mb-8 mt-36">
+        <div className="mb-8">
           <Link href="/" className="text-blue-600 dark:text-blue-400 hover:underline mb-8 inline-block">
             ← Back to Home
           </Link>
