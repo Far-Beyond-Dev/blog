@@ -1,5 +1,27 @@
 [
   {
+    "slug": "game-replication",
+    "title": "Game Replication: The Basics and Beyond",
+    "date": "2025-07-02",
+    "categories": [
+      "Engineering",
+      "Multiplayer",
+      "Gaming",
+      "Rust",
+      "Theory"
+    ],
+    "tags": [
+      "Engineering",
+      "Multiplayer",
+      "Gaming",
+      "Rust",
+      "Theory"
+    ],
+    "excerpt": "\r\nGame replication is the backbone of modern multiplayer gaming, determining how game state synchronizes across multiple clients in real-time. From si...",
+    "readingTime": 22,
+    "fileName": "game-replication.md"
+  },
+  {
     "slug": "horizon-game-server-pt2",
     "title": "Horizon: The game server built for performance at scale",
     "date": "2025-06-24",
@@ -22,6 +44,26 @@
     "excerpt": "\n*The technical journey of building a game server that breaks Unreal Engine's limits and powers massive space battles*\n\n## The Problem That Started Ev...",
     "readingTime": 21,
     "fileName": "horizon-game-server-pt2.md"
+  },
+  {
+    "slug": "plugin-rewrite",
+    "title": "Horizon's event-driven plugin system",
+    "date": "2025-6-23",
+    "categories": [
+      "Engineering",
+      "Performance",
+      "Architecture",
+      "Plugins"
+    ],
+    "tags": [
+      "Engineering",
+      "Performance",
+      "Architecture",
+      "Plugins"
+    ],
+    "excerpt": "\n## Introduction\n\nIn our previous blog post, we explored how Horizon evolved from a monolithic single-threaded architecture to a modern, multi-threade...",
+    "readingTime": 18,
+    "fileName": "plugin-rewrite.md"
   },
   {
     "slug": "horizon-rewrite",
