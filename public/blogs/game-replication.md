@@ -164,18 +164,20 @@ The true power of GORCs emerges through dynamic subscription systems that automa
 **Proximity-Based Subscription** forms the foundation of most GORC implementations:
 
 ```mermaid
-graph TB
+graph LR
     A[Player Position] --> B{Calculate Distance}
-    B -->|< 10m| C[Subscribe: All Channels]
-    B -->|10-50m| D[Subscribe: Channels 0,1,2]
-    B -->|50-200m| E[Subscribe: Channels 0,1]
-    B -->|> 200m| F[Subscribe: Channel 0 Only]
+    B -->| < 10m | C[Subscribe: All Channels]
+    B -->| 10-50m | D[Subscribe: Channels 0,1,2]
+    B -->| 50-200m | E[Subscribe: Channels 0,1]
+    B -->| > 200m | F[Subscribe: Channel 0 Only]
     
     C --> G[Full Detail: 60Hz]
     D --> H[High Detail: 30Hz]
     E --> I[Medium Detail: 15Hz]
     F --> J[Basic Detail: 5Hz]
 ```
+
+**Proximity-Based Subscription** forms the foundation of most GORC implementations. Players subscribe to different channels based on their distance to game objects. The closer a player is to an object, the more detailed the information they receive. This approach ensures that players only receive the information they need, reducing network traffic and improving performance.
 
 **Relationship-Based Subscription** adds another layer of intelligence, where social connections, team membership, or guild affiliation can override distance-based calculations. For example, team members might always receive Channel 1 updates regardless of distance, while enemy players beyond a certain range might be limited to Channel 0 only.
 
