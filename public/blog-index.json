@@ -1,5 +1,22 @@
 [
   {
+    "slug": "gorc",
+    "title": "Building GORC: A Next-Generation Replication System for Multiplayer Games",
+    "date": "2025-7-4",
+    "categories": [
+      "Engineering",
+      "Multiplayer",
+      "Gaming",
+      "Rust"
+    ],
+    "tags": [
+      "Distributed Computing"
+    ],
+    "excerpt": "\r\n## Introduction\r\n\r\nWhen we set out to build the Horizon Event System, we knew that traditional approaches to multiplayer game networking wouldn't be...",
+    "readingTime": 25,
+    "fileName": "gorc.md"
+  },
+  {
     "slug": "game-replication",
     "title": "Game Replication: The Basics and Beyond",
     "date": "2025-07-02",
