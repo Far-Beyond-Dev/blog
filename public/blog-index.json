@@ -1,5 +1,46 @@
 [
   {
+    "slug": "advanced-events",
+    "title": "Client-Aware and Async Event Handlers in Horizon",
+    "date": "2025-07-13",
+    "categories": [
+      "Engineering",
+      "Performance",
+      "Architecture"
+    ],
+    "tags": [
+      "Engineering",
+      "Performance",
+      "Architecture"
+    ],
+    "excerpt": "\r\n# Intro\r\n\r\nGame server architecture has evolved significantly over the past decade, moving from monolithic designs to plugin-based systems that offe...",
+    "readingTime": 12,
+    "fileName": "advanced-events.md"
+  },
+  {
+    "slug": "game-server-ops",
+    "title": "Horizon Ops: Managing Game Server Infra at Scale",
+    "date": "2025-07-11",
+    "categories": [
+      "Engineering",
+      "Multiplayer",
+      "Gaming",
+      "Rust"
+    ],
+    "tags": [
+      "GameDev",
+      "Rust",
+      "MMO",
+      "Match Based",
+      "Networking",
+      "Server Meshing",
+      "Performance"
+    ],
+    "excerpt": "\r\n# Game Server Orchestration: The Future of Multiplayer Infrastructure\r\n\r\n*A comprehensive exploration of modern approaches to multiplayer game serve...",
+    "readingTime": 28,
+    "fileName": "game-server-ops.md"
+  },
+  {
     "slug": "gorc",
     "title": "Building GORC: A Next-Generation Replication System for Multiplayer Games",
     "date": "2025-7-4",
@@ -12,8 +53,8 @@
     "tags": [
       "Distributed Computing"
     ],
-    "excerpt": "\r\n## Introduction\r\n\r\nWhen we set out to build the Horizon Event System, we knew that traditional approaches to multiplayer game networking wouldn't be...",
-    "readingTime": 25,
+    "excerpt": "\n## Introduction\n\nWhen we set out to build the Horizon Event System, we knew that traditional approaches to multiplayer game networking wouldn't be su...",
+    "readingTime": 17,
     "fileName": "gorc.md"
   },
   {
