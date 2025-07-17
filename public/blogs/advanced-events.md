@@ -104,25 +104,25 @@ The true test of any game server architecture is performance under load. Our cli
 ```rust
 // Performance comparison - traditional vs client-aware
 
-// Traditional approach: ~15ms average response time
+// Traditional approach
 async fn traditional_chat_handler(event: ChatMessage) {
     // Process message: 2ms
     process_message(&event).await;
     
-    // Lookup connection: 8ms (hash map contention)
+    // Lookup connection
     let connection = find_connection(event.player_id).await?;
     
     // Send response: 5ms
     connection.send_response(&response).await;
 }
 
-// Client-aware approach: ~3ms average response time  
+// Client-aware approach
 events.on_client_with_connection("chat", "message",
     |event: ChatMessage, client: ClientConnectionRef| async move {
-        // Process message: 2ms (same)
+        // Process message
         process_message(&event).await;
         
-        // Direct response: 1ms (no lookup needed)
+        // Direct response
         client.respond_json(&response).await;
     }
 );
@@ -338,7 +338,6 @@ sequenceDiagram
     EventSystem->>GORC: Trigger Object Updates
     GORC->>Client: Replicate State Changes
     
-    Note over Client, GORC: Total latency: 3-5ms for acknowledgment
     Note over Handler, Database: Background processing continues
 ```
 
