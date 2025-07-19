@@ -5,7 +5,7 @@ categories: ["Engineering", "Multiplayer", "Gaming", "Rust", "Architecture", "Se
 tags: ["GameDev", "Rust", "Authentication", "Plugin Architecture", "Event System", "Performance", "External Integration", "Testing", "Security"]
 ---
 
-# Building Robust Authentication: Core Events and Connection Management in Horizon
+# Core Events and Connection Management in Horizon
 
 Authentication forms the cornerstone of any multiplayer game server, yet implementing it correctly across a distributed plugin architecture presents unique challenges. Today, we're exploring a comprehensive enhancement to the Horizon game server framework that introduces a sophisticated authentication system built on core events and seamlessly integrated with connection management.
 
