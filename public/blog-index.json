@@ -41,6 +41,22 @@
     "fileName": "game-server-ops.md"
   },
   {
+    "slug": "stars-beyond-ships",
+    "title": "Building the Universe: Technical Architecture for Massive Real-Time Ship Construction in Stars Beyond",
+    "date": "2025-7-7",
+    "categories": [
+      "Graphics",
+      "Multiplayer",
+      "Gaming",
+      "UE5",
+      "C++"
+    ],
+    "tags": [],
+    "excerpt": "\r\n*How Far Beyond is tackling the challenge of supporting hundreds of thousands of interactive ship parts in real-time multiplayer*\r\n\r\n## The Challeng...",
+    "readingTime": 12,
+    "fileName": "stars-beyond-ships.md"
+  },
+  {
     "slug": "gorc",
     "title": "Building GORC: A Next-Generation Replication System for Multiplayer Games",
     "date": "2025-7-4",
@@ -54,7 +70,7 @@
       "Distributed Computing"
     ],
     "excerpt": "\n## Introduction\n\nWhen we set out to build the Horizon Event System, we knew that traditional approaches to multiplayer game networking wouldn't be su...",
-    "readingTime": 17,
+    "readingTime": 23,
     "fileName": "gorc.md"
   },
   {
@@ -78,30 +94,6 @@
     "excerpt": "\r\nGame replication is the backbone of modern multiplayer gaming, determining how game state synchronizes across multiple clients in real-time. From si...",
     "readingTime": 22,
     "fileName": "game-replication.md"
-  },
-  {
-    "slug": "horizon-game-server-pt2",
-    "title": "Horizon: The game server built for performance at scale",
-    "date": "2025-06-24",
-    "categories": [
-      "Engineering",
-      "Multiplayer",
-      "Gaming",
-      "Rust"
-    ],
-    "tags": [
-      "GameDev",
-      "Rust",
-      "MMO",
-      "Networking",
-      "Unreal Engine",
-      "Stars Beyond",
-      "Server Meshing",
-      "Performance"
-    ],
-    "excerpt": "\n*The technical journey of building a game server that breaks Unreal Engine's limits and powers massive space battles*\n\n## The Problem That Started Ev...",
-    "readingTime": 21,
-    "fileName": "horizon-game-server-pt2.md"
   },
   {
     "slug": "plugin-rewrite",
@@ -144,24 +136,6 @@
     "fileName": "horizon-rewrite.md"
   },
   {
-    "slug": "horizon-game-server-pt1",
-    "title": "Horizon: A Universal Game Server Solution with Enterprise-Grade Capabilities",
-    "date": "2024-10-12",
-    "categories": [
-      "Engineering",
-      "Multiplayer",
-      "Gaming",
-      "Rust"
-    ],
-    "tags": [
-      "Automation",
-      "Distributed Computing"
-    ],
-    "excerpt": "\nHey there, fellow developers and space enthusiasts! I'm thrilled to share with you a project that's been consuming my nights and weekends (and let's ...",
-    "readingTime": 4,
-    "fileName": "horizon-game-server-pt1.md"
-  },
-  {
     "slug": "building-terraforge-1",
     "title": "Building Terraforge",
     "date": "2024-06-06",
@@ -178,5 +152,53 @@
     "excerpt": "\nOur journey into creating TerraForge began with extensive research, involving more than 40 tabs open for weeks, as we delved into the best methods fo...",
     "readingTime": 4,
     "fileName": "building-terraforge-1.md"
+  },
+  {
+    "slug": "horizon-auth",
+    "excerpt": "title: \"Event-Driven Authentication and Connection Management\"\r\ndate: \"2025-07-19\"\r\ncategories: [\"Engineering\", \"Multiplayer\", \"Gaming\", \"Rust\", \"Arch...",
+    "readingTime": 18,
+    "fileName": "horizon-auth.md"
+  },
+  {
+    "slug": "horizon-game-server-pt2",
+    "title": "Horizon: The game server built for performance at scale",
+    "date": "2025-06-24",
+    "categories": [
+      "Engineering",
+      "Multiplayer",
+      "Gaming",
+      "Rust"
+    ],
+    "tags": [
+      "GameDev",
+      "Rust",
+      "MMO",
+      "Networking",
+      "Unreal Engine",
+      "Stars Beyond",
+      "Server Meshing",
+      "Performance"
+    ],
+    "excerpt": "\n*The technical journey of building a game server that breaks Unreal Engine's limits and powers massive space battles*\n\n## The Problem That Started Ev...",
+    "readingTime": 21,
+    "fileName": "horizon-game-server-pt2.md"
+  },
+  {
+    "slug": "horizon-game-server-pt1",
+    "title": "Horizon: A Universal Game Server Solution with Enterprise-Grade Capabilities",
+    "date": "2024-10-12",
+    "categories": [
+      "Engineering",
+      "Multiplayer",
+      "Gaming",
+      "Rust"
+    ],
+    "tags": [
+      "Automation",
+      "Distributed Computing"
+    ],
+    "excerpt": "\nHey there, fellow developers and space enthusiasts! I'm thrilled to share with you a project that's been consuming my nights and weekends (and let's ...",
+    "readingTime": 4,
+    "fileName": "horizon-game-server-pt1.md"
   }
 ]
