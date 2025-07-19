@@ -1,7 +1,9 @@
+---
 title: "Event-Driven Authentication and Connection Management"
 date: "2025-07-19"
 categories: ["Engineering", "Multiplayer", "Gaming", "Rust", "Architecture", "Security"]
 tags: ["GameDev", "Rust", "Authentication", "Plugin Architecture", "Event System", "Performance", "External Integration", "Testing", "Security"]
+---
 
 # Building Robust Authentication: Core Events and Connection Management in Horizon
 
