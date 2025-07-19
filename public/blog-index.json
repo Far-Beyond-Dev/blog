@@ -1,5 +1,32 @@
 [
   {
+    "slug": "horizon-auth",
+    "title": "Event-Driven Authentication and Connection Management",
+    "date": "2025-07-19",
+    "categories": [
+      "Engineering",
+      "Multiplayer",
+      "Gaming",
+      "Rust",
+      "Architecture",
+      "Security"
+    ],
+    "tags": [
+      "GameDev",
+      "Rust",
+      "Authentication",
+      "Plugin Architecture",
+      "Event System",
+      "Performance",
+      "External Integration",
+      "Testing",
+      "Security"
+    ],
+    "excerpt": "\r\n# Building Robust Authentication: Core Events and Connection Management in Horizon\r\n\r\nAuthentication forms the cornerstone of any multiplayer game s...",
+    "readingTime": 17,
+    "fileName": "horizon-auth.md"
+  },
+  {
     "slug": "advanced-events",
     "title": "Client-Aware and Async Event Handlers in Horizon",
     "date": "2025-07-13",
@@ -96,6 +123,30 @@
     "fileName": "game-replication.md"
   },
   {
+    "slug": "horizon-game-server-pt2",
+    "title": "Horizon: The game server built for performance at scale",
+    "date": "2025-06-24",
+    "categories": [
+      "Engineering",
+      "Multiplayer",
+      "Gaming",
+      "Rust"
+    ],
+    "tags": [
+      "GameDev",
+      "Rust",
+      "MMO",
+      "Networking",
+      "Unreal Engine",
+      "Stars Beyond",
+      "Server Meshing",
+      "Performance"
+    ],
+    "excerpt": "\n*The technical journey of building a game server that breaks Unreal Engine's limits and powers massive space battles*\n\n## The Problem That Started Ev...",
+    "readingTime": 21,
+    "fileName": "horizon-game-server-pt2.md"
+  },
+  {
     "slug": "plugin-rewrite",
     "title": "Horizon's event-driven plugin system",
     "date": "2025-6-23",
@@ -136,54 +187,6 @@
     "fileName": "horizon-rewrite.md"
   },
   {
-    "slug": "building-terraforge-1",
-    "title": "Building Terraforge",
-    "date": "2024-06-06",
-    "categories": [
-      "Engineering",
-      "Performance",
-      "Architecture"
-    ],
-    "tags": [
-      "Engineering",
-      "Performance",
-      "Architecture"
-    ],
-    "excerpt": "\nOur journey into creating TerraForge began with extensive research, involving more than 40 tabs open for weeks, as we delved into the best methods fo...",
-    "readingTime": 4,
-    "fileName": "building-terraforge-1.md"
-  },
-  {
-    "slug": "horizon-auth",
-    "excerpt": "title: \"Event-Driven Authentication and Connection Management\"\r\ndate: \"2025-07-19\"\r\ncategories: [\"Engineering\", \"Multiplayer\", \"Gaming\", \"Rust\", \"Arch...",
-    "readingTime": 18,
-    "fileName": "horizon-auth.md"
-  },
-  {
-    "slug": "horizon-game-server-pt2",
-    "title": "Horizon: The game server built for performance at scale",
-    "date": "2025-06-24",
-    "categories": [
-      "Engineering",
-      "Multiplayer",
-      "Gaming",
-      "Rust"
-    ],
-    "tags": [
-      "GameDev",
-      "Rust",
-      "MMO",
-      "Networking",
-      "Unreal Engine",
-      "Stars Beyond",
-      "Server Meshing",
-      "Performance"
-    ],
-    "excerpt": "\n*The technical journey of building a game server that breaks Unreal Engine's limits and powers massive space battles*\n\n## The Problem That Started Ev...",
-    "readingTime": 21,
-    "fileName": "horizon-game-server-pt2.md"
-  },
-  {
     "slug": "horizon-game-server-pt1",
     "title": "Horizon: A Universal Game Server Solution with Enterprise-Grade Capabilities",
     "date": "2024-10-12",
@@ -200,5 +203,23 @@
     "excerpt": "\nHey there, fellow developers and space enthusiasts! I'm thrilled to share with you a project that's been consuming my nights and weekends (and let's ...",
     "readingTime": 4,
     "fileName": "horizon-game-server-pt1.md"
+  },
+  {
+    "slug": "building-terraforge-1",
+    "title": "Building Terraforge",
+    "date": "2024-06-06",
+    "categories": [
+      "Engineering",
+      "Performance",
+      "Architecture"
+    ],
+    "tags": [
+      "Engineering",
+      "Performance",
+      "Architecture"
+    ],
+    "excerpt": "\nOur journey into creating TerraForge began with extensive research, involving more than 40 tabs open for weeks, as we delved into the best methods fo...",
+    "readingTime": 4,
+    "fileName": "building-terraforge-1.md"
   }
 ]
