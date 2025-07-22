@@ -30,16 +30,16 @@ export const Header = () => {
           {/* Navigation Links - Desktop */}
           <div className="hidden md:flex items-center gap-8">
 
-            <Link href="/community" className="text-neutral-300 hover:text-neutral-100 transition-colors">
+            <Link href="../community" className="text-neutral-300 hover:text-neutral-100 transition-colors">
               Community
             </Link>
-            <Link href="/blog" className="text-neutral-300 hover:text-neutral-100 transition-colors">
+            <Link href="../blog" className="text-neutral-300 hover:text-neutral-100 transition-colors">
               Blog
             </Link>
-            <Link href="/atlas" className="text-neutral-300 hover:text-neutral-100 transition-colors">
+            <Link href="../atlas" className="text-neutral-300 hover:text-neutral-100 transition-colors">
               Atlas
             </Link>
-            <Link href="/docs" className="text-neutral-300 hover:text-neutral-100 transition-colors">
+            <Link href="../docs" className="text-neutral-300 hover:text-neutral-100 transition-colors">
               Documentation
             </Link>
             <Link href="https://pulsar.farbeyond.dev/" className="text-neutral-300 hover:text-neutral-100 transition-colors">
