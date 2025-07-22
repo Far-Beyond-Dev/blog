@@ -6,14 +6,29 @@ import { IconBrandGithub } from "@tabler/icons-react";
 
 const baseUrl = "https://horizon.farbeyond.dev/"; // Set your base URL here
 
-const MobileNavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
-  <Link
-    href={href.startsWith("http") ? href : `/${href.replace(/^\//, "")}`}
-    className="block px-3 py-2 text-base font-medium text-neutral-300 hover:text-white hover:bg-neutral-800 rounded-md transition-colors"
-  >
-    {children}
-  </Link>
-);
+const MobileNavLink = ({ href, children }: { href: string; children: React.ReactNode }) => {
+  const isExternal = href.startsWith("http");
+  if (isExternal) {
+    return (
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block px-3 py-2 text-base font-medium text-neutral-300 hover:text-white hover:bg-neutral-800 rounded-md transition-colors"
+      >
+        {children}
+      </a>
+    );
+  }
+  return (
+    <Link
+      href={baseUrl + href.replace(/^\//, "")}
+      className="block px-3 py-2 text-base font-medium text-neutral-300 hover:text-white hover:bg-neutral-800 rounded-md transition-colors"
+    >
+      {children}
+    </Link>
+  );
+};
 
 export const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
@@ -31,21 +46,21 @@ export const Header = () => {
 
           {/* Navigation Links - Desktop */}
           <div className="hidden md:flex items-center gap-8">
-            <Link href="/community" className="text-neutral-300 hover:text-neutral-100 transition-colors">
+            <a href={baseUrl + "community"} className="text-neutral-300 hover:text-neutral-100 transition-colors">
               Community
-            </Link>
-            <Link href="/blog" className="text-neutral-300 hover:text-neutral-100 transition-colors">
+            </a>
+            <a href={baseUrl + "blog"} className="text-neutral-300 hover:text-neutral-100 transition-colors">
               Blog
-            </Link>
-            <Link href="/atlas" className="text-neutral-300 hover:text-neutral-100 transition-colors">
+            </a>
+            <a href={baseUrl + "atlas"} className="text-neutral-300 hover:text-neutral-100 transition-colors">
               Atlas
-            </Link>
-            <Link href="/docs" className="text-neutral-300 hover:text-neutral-100 transition-colors">
+            </a>
+            <a href={baseUrl + "docs"} className="text-neutral-300 hover:text-neutral-100 transition-colors">
               Documentation
-            </Link>
-            <Link href="https://pulsar.farbeyond.dev/" className="text-neutral-300 hover:text-neutral-100 transition-colors">
+            </a>
+            <a href="https://pulsar.farbeyond.dev/" className="text-neutral-300 hover:text-neutral-100 transition-colors">
               Pulsar
-            </Link>
+            </a>
             <span className="text-neutral-500 cursor-not-allowed" title="Coming soon">
               SaaS (Planned)
             </span>
@@ -53,19 +68,19 @@ export const Header = () => {
 
           {/* Call to Action Buttons */}
           <div className="flex items-center gap-4">
-            <Link 
+            <a 
               href="https://github.com/Far-Beyond-Dev/Horizon-Community-Edition" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-neutral-300 hover:text-neutral-100 transition-colors"
             >
               <IconBrandGithub className="w-5 h-5" />
-            </Link>
-            <Link href="/docs/about">
+            </a>
+            <a href={baseUrl + "docs/about"}>
               <button className="px-4 py-2 text-sm bg-neutral-800 hover:bg-neutral-700 text-neutral-100 rounded-lg transition-all">
                 Get Started
               </button>
-            </Link>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
