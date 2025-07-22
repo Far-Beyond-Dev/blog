@@ -21,7 +21,7 @@ export const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo and Brand */}
-          <Link href="/">
+          <Link href="../">
             <div className="flex items-center gap-2">
               <img src="https://github.com/Far-Beyond-Dev/Horizon-Community-Edition/blob/main/branding/horizon-server-high-resolution-logo-white-transparent.png?raw=true" className='w-52'></img>
             </div>
