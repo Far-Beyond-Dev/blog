@@ -1,5 +1,25 @@
 [
   {
+    "slug": "async-plugin-architecture-blog",
+    "title": "Tokio Runtime Context Across DLL Boundaries",
+    "date": "2025-7-26",
+    "categories": [
+      "Engineering",
+      "Rust",
+      "Tokio",
+      "Async"
+    ],
+    "tags": [
+      "Engineering",
+      "Rust",
+      "Tokio",
+      "Async"
+    ],
+    "excerpt": "\n# Tokio Runtime Context Across DLL Boundaries: The Plugin System Challenge\n\nThe development of async plugin systems in Rust presents a fundamental ch...",
+    "readingTime": 13,
+    "fileName": "async-plugin-architecture-blog.md"
+  },
+  {
     "slug": "horizon-auth",
     "title": "Event-Driven Authentication and Connection Management",
     "date": "2025-07-19",
@@ -22,7 +42,7 @@
       "Testing",
       "Security"
     ],
-    "excerpt": "\r\n# Building Robust Authentication: Core Events and Connection Management in Horizon\r\n\r\nAuthentication forms the cornerstone of any multiplayer game s...",
+    "excerpt": "\r\n# Core Events and Connection Management in Horizon\r\n\r\nAuthentication forms the cornerstone of any multiplayer game server, yet implementing it corre...",
     "readingTime": 17,
     "fileName": "horizon-auth.md"
   },
@@ -96,7 +116,7 @@
     "tags": [
       "Distributed Computing"
     ],
-    "excerpt": "\n## Introduction\n\nWhen we set out to build the Horizon Event System, we knew that traditional approaches to multiplayer game networking wouldn't be su...",
+    "excerpt": "\r\n## Introduction\r\n\r\nWhen we set out to build the Horizon Event System, we knew that traditional approaches to multiplayer game networking wouldn't be...",
     "readingTime": 23,
     "fileName": "gorc.md"
   },
@@ -142,7 +162,7 @@
       "Server Meshing",
       "Performance"
     ],
-    "excerpt": "\n*The technical journey of building a game server that breaks Unreal Engine's limits and powers massive space battles*\n\n## The Problem That Started Ev...",
+    "excerpt": "\r\n*The technical journey of building a game server that breaks Unreal Engine's limits and powers massive space battles*\r\n\r\n## The Problem That Started...",
     "readingTime": 21,
     "fileName": "horizon-game-server-pt2.md"
   },
@@ -162,7 +182,7 @@
       "Architecture",
       "Plugins"
     ],
-    "excerpt": "\n## Introduction\n\nIn our previous blog post, we explored how Horizon evolved from a monolithic single-threaded architecture to a modern, multi-threade...",
+    "excerpt": "\r\n## Introduction\r\n\r\nIn our previous blog post, we explored how Horizon evolved from a monolithic single-threaded architecture to a modern, multi-thre...",
     "readingTime": 18,
     "fileName": "plugin-rewrite.md"
   },
@@ -182,7 +202,7 @@
       "Architecture",
       "Plugins"
     ],
-    "excerpt": "\n[The pull request for this blog](https://github.com/Far-Beyond-Dev/Horizon-Community-Edition/pull/182)\n\n# Introduction\nIn this deep dive, we'll explo...",
+    "excerpt": "\r\n[The pull request for this blog](https://github.com/Far-Beyond-Dev/Horizon-Community-Edition/pull/182)\r\n\r\n# Introduction\r\nIn this deep dive, we'll e...",
     "readingTime": 7,
     "fileName": "horizon-rewrite.md"
   },
@@ -200,7 +220,7 @@
       "Automation",
       "Distributed Computing"
     ],
-    "excerpt": "\nHey there, fellow developers and space enthusiasts! I'm thrilled to share with you a project that's been consuming my nights and weekends (and let's ...",
+    "excerpt": "\r\nHey there, fellow developers and space enthusiasts! I'm thrilled to share with you a project that's been consuming my nights and weekends (and let's...",
     "readingTime": 4,
     "fileName": "horizon-game-server-pt1.md"
   },
@@ -218,7 +238,7 @@
       "Performance",
       "Architecture"
     ],
-    "excerpt": "\nOur journey into creating TerraForge began with extensive research, involving more than 40 tabs open for weeks, as we delved into the best methods fo...",
+    "excerpt": "\r\nOur journey into creating TerraForge began with extensive research, involving more than 40 tabs open for weeks, as we delved into the best methods f...",
     "readingTime": 4,
     "fileName": "building-terraforge-1.md"
   }
