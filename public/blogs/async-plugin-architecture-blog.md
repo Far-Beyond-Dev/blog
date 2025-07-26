@@ -5,7 +5,7 @@ categories: ["Engineering", "Rust", "Tokio", "Async"]
 tags: ["Engineering", "Rust", "Tokio", "Async"]
 ---
 
-## Warm up
+# Warm up
 
 The development of async plugin systems in Rust presents a fundamental challenge that has plagued the community since Tokio's early days: **runtime context disappears when crossing dynamic library boundaries**. This isn't merely a configuration issue or API limitation—it's a deep systems problem rooted in how thread-local storage works across shared library boundaries, creating what the Tokio maintainers describe as an "officially unsupported" scenario.
 
@@ -376,4 +376,4 @@ The Tokio runtime context issue across DLL boundaries represents a classic syste
 
 The key insight is that seamless context sharing across dynamic library boundaries conflicts with fundamental security and stability principles in modern operating systems. Successful implementations acknowledge this constraint and design explicit context management protocols rather than relying on implicit propagation.
 
-For developers building plugin systems today, the recommended approach is clear: embrace explicit architectural boundaries, use synchronous plugin interfaces with async wrappers, and implement comprehensive testing across different deployment scenarios. While not as seamless as static linking, these patterns enable robust, performant plugin systems that work reliably in production environments.
+For developers building plugin systems today; embrace explicit architectural boundaries, use synchronous plugin interfaces with async wrappers, and implement comprehensive testing across different deployment scenarios. While not as seamless as static linking, these patterns enable robust, performant plugin systems that work reliably in production environments.
