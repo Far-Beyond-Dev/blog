@@ -1,5 +1,26 @@
 [
   {
+    "slug": "horizon-0-40-0-rc2",
+    "title": "Horizon v0.40.0-rc2: A Complete Architectural Deep Dive",
+    "date": "2025-09-13",
+    "categories": [
+      "Engineering",
+      "Multiplayer",
+      "Gaming",
+      "Rust"
+    ],
+    "tags": [
+      "GameDev",
+      "Rust",
+      "MMO",
+      "Networking",
+      "Performance"
+    ],
+    "excerpt": "\r\nWe are thrilled to announce **Horizon v0.40.0-rc2**, a release that represents a substantial leap forward in the server's architecture. This update ...",
+    "readingTime": 16,
+    "fileName": "horizon-0-40-0-rc2.md"
+  },
+  {
     "slug": "async-plugin-architecture-blog",
     "title": "Tokio Runtime Context Across DLL Boundaries",
     "date": "2025-7-26",
@@ -15,7 +36,7 @@
       "Tokio",
       "Async"
     ],
-    "excerpt": "\n# Tokio Runtime Context Across DLL Boundaries: The Plugin System Challenge\n\nThe development of async plugin systems in Rust presents a fundamental ch...",
+    "excerpt": "\r\n# Warm up\r\n\r\nThe development of async plugin systems in Rust presents a fundamental challenge that has plagued the community since Tokio's early day...",
     "readingTime": 13,
     "fileName": "async-plugin-architecture-blog.md"
   },
