@@ -693,7 +693,7 @@ events.on_gorc_client("SpaceShip", 2, "fire_weapons",
 1. **Event Handler Signatures**: All event handlers now receive structured parameters instead of raw byte arrays
 2. **GORC Object Definition**: Objects must now implement `GorcZoneData` traits instead of string-based channel definitions  
 3. **Async Runtime**: Plugins must use the provided `luminal::Handle` instead of spawning their own Tokio runtime they can get this using `let luminal_handle = context.luminal_handle();`:
-```rs
+```rust
   async fn register_handlers(
     &mut self,
     events: Arc<EventSystem>,
